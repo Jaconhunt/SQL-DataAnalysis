@@ -152,7 +152,7 @@ insert into score_table VALUES
 ('张磊','英语',88);
 ```
 
-![1567474955136](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1567474955136.png)
+https://github.com/Jaconhunt/SQL-DataAnalysis/blob/master/SQL/1567474955136.png
 
 ```
 select *, sum(语文 + 数学 + 英语) as '总分', (语文 + 数学 + 英语)/3 as '平均分' 
@@ -164,8 +164,7 @@ from score_table as a
 group by stu_name) a
 group by stu_name;
 ```
-
-![1567477233715](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1567477233715.png)
+https://github.com/Jaconhunt/SQL-DataAnalysis/blob/master/SQL/1567477233715.png
 
 7.查询数据表（order），基本字段如下：省，市，店铺名称，订单数。要按”市”排序，需要看到每一个市的订单排名前三名的门店及订单数。
 
@@ -288,15 +287,14 @@ select userid, count(distinct day(login_time)) as 登陆天数
 from log_day 
 group by userid;
 ```
-
-![1567433734541](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1567433734541.png)
-
+https://github.com/Jaconhunt/SQL-DataAnalysis/blob/master/SQL/1567433734541.png
 
 14. 实现行列转换
 
-    ![1567409054541](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1567409054541.png)
+https://github.com/Jaconhunt/SQL-DataAnalysis/blob/master/SQL/1567409054541.png
 
-![1567410562400](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1567410562400.png)
+https://github.com/Jaconhunt/SQL-DataAnalysis/blob/master/SQL/1567410562400.png
+
 
 ```
 create table course_table
