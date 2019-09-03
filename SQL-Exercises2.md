@@ -418,9 +418,9 @@ from course_table
 group by 学号;
 ```
 
-进阶：
+进阶与总结：
 
-尝试Pandas的行列转换功能，理论上SQL的增删改查Pandas都能做
+尝试Pandas的行列转换功能，理论上SQL的增删改查Pandas都能做。通过试题发现SQL的入门容易但是进阶较难，应该要补充数据库相关知识
 
 参考文章：
 
