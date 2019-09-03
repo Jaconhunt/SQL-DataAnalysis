@@ -1,1 +1,3 @@
-包含网络上的SQL面试题
+# SQL
+
+this repository contains some sql interview exercises, hope it be useful!
